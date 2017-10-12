@@ -42,10 +42,10 @@ $ dig www.google.com
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1280
 ;; QUESTION SECTION:
-;www.google.com.			IN	A
+;www.google.com.            IN    A
 
 ;; ANSWER SECTION:
-www.google.com.		32	IN	A	172.217.3.100
+www.google.com.        32    IN    A    172.217.3.100
 
 ;; Query time: 6 msec
 ;; SERVER: 10.0.2.3#53(10.0.2.3)
@@ -64,10 +64,10 @@ www.google.com.		32	IN	A	172.217.3.100
 
 DNS is a distributed directory. Around the world there are several root servers which direct requests to top-level domain (TLD) servers like for .com which in turn direct requests to the servers for particular domains.
 
-Nesting example:
-![nesting](/images/nesting.png)
+Nesting example: ![nesting](/images/nesting.png)
 
 ### How does DNS work
+
 1. The DNS server that the client resolver talks to is a nearby caching DNS server. For home user, it might be the home router or ISP. It could also be DNS services like Google Public DNS.
 2. When the caching server receives a query from the client, it first consults the local cache.
 3. If the cache doesn't know what the record is, the caching server recursively resolves the query by forwarding to the appropriate name servers.
@@ -90,6 +90,7 @@ SSL encryption certificates are issued for particular domains. It encrypts the t
 ## 32 bits to 128 bits
 
 ### IPv4
+
 `216.58.217.206`
 
 The older and the majority of what the internet uses today. Each four numbers is one byte or octet, or 8-bits. It will contain a value from 0 to 255.
@@ -97,6 +98,7 @@ The older and the majority of what the internet uses today. Each four numbers is
 ![ip](/images/ip-addr.png)
 
 ### IPv6
+
 `2607:f8b0:4007:0804:0000:0000:0000:1006`
 
 ## Bits
