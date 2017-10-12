@@ -10,6 +10,7 @@ My notes based on the [Udacity] course: [Networking for Web Developers]. This wa
 4. [Protocol Layers](/docs/4_protocol_layers.md)
 5. [Big Networks](/docs/5_big_networks.md)
 6. [HTTP Overview](/docs/http_overview.md)
+7. [What happens when you navigate to google.com?](/docs/google.md)
 
 [networking for web developers]: https://classroom.udacity.com/courses/ud256
 [udacity]: https://www.udacity.com
